@@ -21,8 +21,26 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a  {
+  color: white;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: white;
+  opacity:0.75;
+}  
+
+.navbar-default .navbar-nav > li > a:hover  {
+  color: white;
+  opacity: 0.75;
+}
+
 .navbar, .home-callout {
-  //Gradient provided by https://twitter.com/_ighosh// 
+  //Gradient provided by https://twitter.com/_ighosh 
   background: #00c6ff;  /* fallback for old browsers */
   background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
   background: -moz-linear-gradient(left, #0072ff, #00c6ff);
