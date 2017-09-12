@@ -33,6 +33,7 @@ h1, h2, h3 {
   }
 }
 
+
 // Background Gradient
 .navbar, .home-callout {
   //Gradient provided by https://twitter.com/_ighosh 
@@ -47,6 +48,11 @@ h1, h2, h3 {
 // Nav Styles
 .navbar {
   border: none;
+}
+
+.navbar-brand {
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 800;
 }
 
 // Homepage Styles
