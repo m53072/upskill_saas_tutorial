@@ -49,6 +49,9 @@ gem 'stripe', '1.48.0'
 # Figaro for ENV variables
 gem 'figaro', '1.1.1'
 
+# USe Paperclip for image upload
+gem 'paperclip', '4.3.6'
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
