@@ -21,3 +21,10 @@ server and Stripe will create a subscription and send back customer token. Rails
 customer token and user information to our database. 
 
 
+User Profiles
+* Each user have one profile 
+* User should see link to new profile form upon signing up
+* User should be able to create and view their user profile
+* User profile should have a profile picture
+* User should be able to view all user profiles
+
